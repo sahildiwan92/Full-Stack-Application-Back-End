@@ -27,7 +27,7 @@ public class Bike {
 	private String serialNumber;
 	private BigDecimal purchasePrice;
 	
-	private Date purchaseDate;
+	private String purchaseDate;
 	private boolean contact;
 	public String getName() {
 		return name;
@@ -65,10 +65,10 @@ public class Bike {
 	public void setPurchasePrice(BigDecimal purchasePrice) {
 		this.purchasePrice = purchasePrice;
 	}
-	public Date getPurchaseDate() {
+	public String getPurchaseDate() {
 		return purchaseDate;
 	}
-	public void setPurchaseDate(Date purchaseDate) {
+	public void setPurchaseDate(String purchaseDate) {
 		this.purchaseDate = purchaseDate;
 	}
 	public boolean isContact() {
